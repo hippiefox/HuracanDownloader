@@ -1,0 +1,29 @@
+PODS:
+  - HuracanDownloader (0.1.0):
+    - RealmSwift
+  - Realm (10.43.1):
+    - Realm/Headers (= 10.43.1)
+  - Realm/Headers (10.43.1)
+  - RealmSwift (10.43.1):
+    - Realm (= 10.43.1)
+
+DEPENDENCIES:
+  - HuracanDownloader (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  HuracanDownloader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HuracanDownloader: e2e1bbb693d63b2b68bec705acbe2bd0e59df483
+  Realm: d97b438de77459e443bd2c8ad5ca0f95107aee4b
+  RealmSwift: 6be3f27a7fd3f5cc8f99f4b187cc4e7150299e32
+
+PODFILE CHECKSUM: f9029fbc7b9d09d8685144913a65251bce0d9f41
+
+COCOAPODS: 1.13.0

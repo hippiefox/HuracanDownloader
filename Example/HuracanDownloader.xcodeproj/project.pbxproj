@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		08E8CD6DD965FA363A31A356 /* Pods_HuracanDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuracanDownloader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CD0DDF2C0B4E7A8C4CB4111 /* HuracanDownloader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HuracanDownloader.podspec; path = ../HuracanDownloader.podspec; sourceTree = "<group>"; };
+		1CD0DDF2C0B4E7A8C4CB4111 /* HuracanDownloader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HuracanDownloader.podspec; path = ../HuracanDownloader.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2659150BC071B41456E94BBE /* Pods-HuracanDownloader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuracanDownloader_Example.release.xcconfig"; path = "Target Support Files/Pods-HuracanDownloader_Example/Pods-HuracanDownloader_Example.release.xcconfig"; sourceTree = "<group>"; };
-		38025C78CCAD46074CEA024D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		38025C78CCAD46074CEA024D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5C614FABD7C2793E60F84ABC /* Pods-HuracanDownloader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuracanDownloader_Tests.release.xcconfig"; path = "Target Support Files/Pods-HuracanDownloader_Tests/Pods-HuracanDownloader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HuracanDownloader_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuracanDownloader_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* HuracanDownloader_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuracanDownloader_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A53444F2787382A720BD5636 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A53444F2787382A720BD5636 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B14CBAF03BA75D1090D1C51F /* Pods-HuracanDownloader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuracanDownloader_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HuracanDownloader_Tests/Pods-HuracanDownloader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7A59638E2E91B118ADEF442 /* Pods_HuracanDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuracanDownloader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE632AD9A9639BD58B92C777 /* Pods-HuracanDownloader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuracanDownloader_Example.debug.xcconfig"; path = "Target Support Files/Pods-HuracanDownloader_Example/Pods-HuracanDownloader_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				B14CBAF03BA75D1090D1C51F /* Pods-HuracanDownloader_Tests.debug.xcconfig */,
 				5C614FABD7C2793E60F84ABC /* Pods-HuracanDownloader_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 539L9S3WP5;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 539L9S3WP5;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -292,10 +294,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HuracanDownloader_Example/Pods-HuracanDownloader_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HuracanDownloader/HuracanDownloader.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HuracanDownloader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -478,7 +484,9 @@
 			baseConfigurationReference = FE632AD9A9639BD58B92C777 /* Pods-HuracanDownloader_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				INFOPLIST_FILE = HuracanDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +501,9 @@
 			baseConfigurationReference = 2659150BC071B41456E94BBE /* Pods-HuracanDownloader_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				INFOPLIST_FILE = HuracanDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B14CBAF03BA75D1090D1C51F /* Pods-HuracanDownloader_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C614FABD7C2793E60F84ABC /* Pods-HuracanDownloader_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

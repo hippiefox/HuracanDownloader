@@ -1,0 +1,6 @@
+framework module Pods_HuracanDownloader_Tests {
+  umbrella header "Pods-HuracanDownloader_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

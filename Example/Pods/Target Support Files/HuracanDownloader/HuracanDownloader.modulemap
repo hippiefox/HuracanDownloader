@@ -1,0 +1,6 @@
+framework module HuracanDownloader {
+  umbrella header "HuracanDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}
