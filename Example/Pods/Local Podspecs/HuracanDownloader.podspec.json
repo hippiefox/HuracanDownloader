@@ -12,7 +12,7 @@
     "HippieFox": "foxhippie5@gmail.com"
   },
   "source": {
-    "git": "https://github.com/HippieFox/HuracanDownloader.git",
+    "git": "https://github.com/hippiefox/HuracanDownloader.git",
     "tag": "0.1.0"
   },
   "platforms": {

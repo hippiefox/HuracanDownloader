@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HuracanDownloader: e2e1bbb693d63b2b68bec705acbe2bd0e59df483
+  HuracanDownloader: ec0742e42e505a040909e549b67230f5e1736c6a
   Realm: d97b438de77459e443bd2c8ad5ca0f95107aee4b
   RealmSwift: 6be3f27a7fd3f5cc8f99f4b187cc4e7150299e32
 
